@@ -1,3 +1,4 @@
 # Ignore legally obtained PokemonRed.gb ROM
+rom/
 PokemonRed.gb
 PokemonRed.gb:Zone.Identifier
