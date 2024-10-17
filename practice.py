@@ -39,7 +39,7 @@ def print_sprites():
         else:
             print(f"Invalid sprite data at index {i}, skipping.")
 
-while pyboy.tick():  # 3c49
+while pyboy.tick(15, True):  # Render 30 frames at a time and only display final frame
     game_wrapper.post_tick()
     print_sprites()
     #print(game_wrapper) 
